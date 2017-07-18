@@ -1,0 +1,8 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+           <block class="Magento\Framework\View\Element\Template"  template="Kens_Hello::product/hello.phtml"/>
+            <block class="Kens\Hello\Block\Catalog\Product\View"  template="Kens_Hello::Test.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
